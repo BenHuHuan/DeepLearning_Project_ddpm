@@ -2,7 +2,7 @@
 
 PyTorch Re-Implementation of Denoising Diffusion Probabilistic Models
 
-Plot sampled epoch images  just run pic_extract.ipynb  
+Plot sampled epoch images - just run pic_extract.ipynb
 
 train_vae.py is used for vae-denoising task as a baseline compared to ddpm.
 
