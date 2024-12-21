@@ -12,24 +12,31 @@ PyTorch Re-Implementation of Denoising Diffusion Probabilistic Models
 
 
 ## Training
-- Take CIFAR10 for example:
+- Take CelebA for example:
+    ``` 
+   python train.py --dataset CelebA 
     ```
-    python main.py --train \
-        --flagfile ./config/CIFAR10.txt
+- Overwrite arguments
     ```
-- [Optional] Overwrite arguments
-    ```
+  python train.py --dataset CelebA --epochs 50 --channels 3 --sample_epoch 5
+    
+     ```
 
 
 
+## FID Evaluate 
+make sure install package pytorch-fid first
+ ```
+!pip install pytorch-fid
+ ```
 
-## Evaluate
-
-
-
-
-
-
+ ```
+python fid.py /real/image/dir /generated/image/dir 
+ ```
+[Optional] Overwrite argument
+```
+  --sample_epoch 1 --epoch 10 --batch_size 20
+ ```
 
 
 Reference：
