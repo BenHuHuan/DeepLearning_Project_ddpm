@@ -9,8 +9,9 @@ PyTorch Re-Implementation of Denoising Diffusion Probabilistic Models
     - CelebA
    
 ## Requirements
-
-
+ ``` 
+pip install -r requirements.txt
+ ```
 ## Training
 - Take CelebA for example:
     ``` 
