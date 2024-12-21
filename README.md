@@ -50,7 +50,8 @@ Reference：
 - CelebA Dataset | https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 - U-Net model for Denoising Diffusion Probabilistic Models (DDPM) | https://nn.labml.ai/diffusion/ddpm/unet.html
 
-  ## TODO
+  ## Todo
 
-<img src="CIFAR10/51000.png" alt="Example" width="300"> "fake image" step 51000/800000 (unfinished training)
+<img src="CIFAR10/51000.png" alt="Example" width="300"> 
+-Eval "fake image" step 51000/800000 (unfinished training)
 
