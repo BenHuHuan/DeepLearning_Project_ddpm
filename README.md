@@ -50,5 +50,5 @@ Reference：
 - CelebA Dataset | https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 - U-Net model for Denoising Diffusion Probabilistic Models (DDPM) | https://nn.labml.ai/diffusion/ddpm/unet.html
 
-
+CIFAR10/51000.png
 
