@@ -52,6 +52,6 @@ Reference：
 
   ## Todo
 
-<img src="CIFAR10/51000.png" alt="Example" width="300"> 
--Eval "fake image" step 51000/800000 (unfinished training)
+   <img src="CIFAR10/51000.png" alt="Example" width="300"> 
+   -Eval "fake image" step 51000/800000 (unfinished training) FID=87,65
 
