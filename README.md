@@ -33,6 +33,7 @@ pip install pytorch-fid
  ```
 
  ```
+cd ./ddpm
 python fid.py /real/image/dir /generated/image/dir 
  ```
 [Optional] Overwrite argument
