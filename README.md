@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ## FID Evaluate 
 make sure install package pytorch-fid first
  ```
-!pip install pytorch-fid
+pip install pytorch-fid
  ```
 
  ```
