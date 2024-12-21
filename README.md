@@ -2,6 +2,7 @@
 
 PyTorch Re-Implementation of Denoising Diffusion Probabilistic Models
 
+train_vae.py is used for vae-denoising task as a baseline compared to ddpm.
 
 - Datasets
     - CIFAR10
