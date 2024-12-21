@@ -1,0 +1,1 @@
+python train.py --dataset CelebA --epochs 50 --channels 3 --sample_epoch 5

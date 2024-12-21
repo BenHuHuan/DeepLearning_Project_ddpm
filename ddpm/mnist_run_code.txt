@@ -1,0 +1,1 @@
+python train.py --dataset mnist --epochs 10 --channels 1 --sample_epoch 1
