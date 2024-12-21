@@ -16,11 +16,11 @@ pip install -r requirements.txt
 ## Training
 - Take CelebA for example:
     ``` 
-   python train.py --dataset CelebA 
+   python ./ddpm/train.py --dataset CelebA 
     ```
 - Overwrite arguments
     ```
-  python train.py --dataset CelebA --epochs 50 --channels 3 --sample_epoch 5
+  python ./ddpm/train.py --dataset CelebA --epochs 50 --channels 3 --sample_epoch 5
     
      ```
 
