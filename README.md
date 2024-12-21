@@ -1,4 +1,38 @@
+# Denoising Diffusion Probabilistic Models
 
+PyTorch Re-Implementation of Denoising Diffusion Probabilistic Models
+
+
+- Datasets
+    - CIFAR10
+    - Mnist
+    - CelebA
+   
+## Requirements
+
+
+## Training
+- Take CIFAR10 for example:
+    ```
+    python main.py --train \
+        --flagfile ./config/CIFAR10.txt
+    ```
+- [Optional] Overwrite arguments
+    ```
+
+
+
+
+## Evaluate
+
+
+
+
+## Reference
+
+[1] [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
+
+[2] [Official TensorFlow implementation](https://github.com/hojonathanho/diffusion)
 
 
 
